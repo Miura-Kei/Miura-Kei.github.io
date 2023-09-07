@@ -1,0 +1,172 @@
+/*/////////////////////////////////////// 背景やフォント ///////////////////////////////////////*/
+body {
+    font-family: Arial, sans-serif;/* フォント */
+    background-color: #f0f0f0;/* 背景 */
+    margin: 0;/* 余白*/
+    padding: 0;/* 余白*/
+    }
+/*/////////////////////////////////////// プログラミング基礎 ///////////////////////////////////////*/
+.title {
+    background-color: skyblue;
+    color: white;
+    text-align: center;/* テキストを真ん中*/
+    margin: 0;/* 余白*/
+    padding: 20px;/* 余白*/
+    }
+    
+/*/////////////////////////////////////// 20日間で学んだ事 ///////////////////////////////////////*/ 
+/* 20日間のカリキュラムのBOX */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    }
+    
+/* 学んだ言語の説明 */
+ul {
+/* 何故かマーカが出てくる　リスト項目要素のマーカー無くした */ 
+    list-style-type: none;
+    padding: 0;
+    }
+/* 行間の調整 */
+li {
+    margin: 10pxs;
+    }
+    
+/*/////////////////////////////////////// クイズ ///////////////////////////////////////*/ 
+/* クイズタイトル */
+.quizTitle h1{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column; /* 上下の調整 */
+    text-align: center; /* 文字を左右中央 */
+    }
+    
+/* クイズのBOX */
+.quiz{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    }
+    
+/* クイズの文字 */
+.quiz h2{
+    color: black;
+    }
+.quiz p{
+    color: black;
+    }
+    
+/* 3択 */
+.choices button{
+    padding: 10px 20px;
+    font-size: 16px;
+    }
+    
+/*/////////////////////////////////////// パスワード ///////////////////////////////////////*/ 
+/* パスワードタイトル */
+.PasswordTitle{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column; /* 上下の調整 */
+    text-align: center; /* 文字を左右中央 */
+    }
+    
+.PasswordTitle h1 {
+    margin: 0;
+    }
+/* パスワードのBOX */
+.Password {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    }
+/* パスワードの文字 */
+.Password h2 {
+    color: black;
+    }
+    
+.Password p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+/* パスワード　入力 */
+.Password input {
+    padding: 10px;
+    font-size: 20px;
+    }
+/* パスワード　クリック */
+.Password button {
+    padding: 10px 20px;
+    font-size: 16px;
+    }
+    
+/*/////////////////////////////////////// 拡張機能 ///////////////////////////////////////*/
+/* chromeタイトル */
+.chromeTitle{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column; /* 上下の調整 */
+    text-align: center; /* 文字を左右中央 */ 
+    }
+    
+.chromeTitle h1{
+    margin: 0;
+    }
+    
+/* chrome拡張機能のBOX */
+.chrome {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    }
+
+/* 画像の行間 */
+.chrome img{
+    margin: 5px;
+    width: 700px;
+    height: 450px;
+    }
+    
+/*/////////////////////////////////////// 反省・今後 ///////////////////////////////////////*/
+/* 反省・今後のタイトル */
+.thoughtsTitle{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column; /* 上下の調整 */
+    text-align: center; /* 文字を左右中央 */ 
+    }
+    
+.thoughtsTitle h1{
+    margin: 0;
+    }
+    
+/* 反省・今後のBOX */
+.thoughts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    }
